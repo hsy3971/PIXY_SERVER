@@ -1,0 +1,30 @@
+# 환경 설정 파일
+.env
+
+# Python 바이트코드
+__pycache__/
+*.py[cod]
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# 가상 환경
+venv/
+env/
+aivle_big_project/
+
+# IDE 관련 (선택적)
+.vscode/
+.idea/
+
+# 운영체제 관련 파일
+.DS_Store
+Thumbs.db
+
+# 정적 파일 디렉토리
+/staticfiles/
+/static/
