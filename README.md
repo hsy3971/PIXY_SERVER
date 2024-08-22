@@ -1,4 +1,4 @@
-# PIXY Project
+# PIXY
 <img src="https://github.com/user-attachments/assets/a1b4f8ce-1b2f-4d03-a9c7-a0f8a47dc731" alt="image"></img>
 ## 개요
 무인매장 맞춤형 AI PIXY로써 리테일 기업을 비롯한 다양한 무인매장의 점주들에게 제공하는 AI 서비스입니다.
@@ -7,6 +7,19 @@
 - 맞춤형 고객 응대: 랭체인과 ChatGPT를 활용하여 매장별 맞춤형 챗봇을 통해 고객 응대를 지원합니다.
 - CCTV 모니터링: YOLOv8를 이용해 사람을 감지하고, LSTM 기반 자세 추정을 통해 절도와 화재를 감지합니다.
 - 재고 관리: 머신러닝을 활용한 판매량 예측으로 효율적인 재고 관리를 제공합니다.
+
+## 기능별 페이지
+### 이상행동 탐지
+<img src="https://github.com/user-attachments/assets/11ab02d5-2147-4c81-af3b-46e8c6436115" alt="image"></img>
+
+### 화재 탐지
+<img src="https://github.com/user-attachments/assets/7691510d-1e8e-4f1d-9e74-510460825bef" alt="image"></img>
+
+### 판매예측
+<img src="https://github.com/user-attachments/assets/2283a698-8387-4c47-9e23-a99f58d1754c" alt="image"></img>
+
+## RAG-LLM
+<img src="https://github.com/user-attachments/assets/0da857b8-ad42-4605-8859-d0cb426203e7" alt="image"></img>
 
 ## 프로젝트 구조
 - `/frontend`: React 기반 사용자 인터페이스
@@ -57,4 +70,3 @@
 ### RAG-LLM
 
 <img src="https://github.com/user-attachments/assets/c2bfa631-ed88-43bb-bb72-4c1689ca5c99" alt="image"></img>
-
