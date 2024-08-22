@@ -1,7 +1,12 @@
 # PIXY Project
-
+<img src="https://github.com/user-attachments/assets/a1b4f8ce-1b2f-4d03-a9c7-a0f8a47dc731" alt="image"></img>
 ## 개요
-PIXY는 KT Aivle 5기 과정에서 개발된 혁신적인 AI 기반 예측 및 모니터링 시스템입니다. 이 프로젝트는 프론트엔드, 백엔드, Custom LLM, 그리고 세 가지 AI 모델링 (시계열 데이터 예측, 이상 행동 예측, 화재 예측)을 통합하여 실시간 데이터 분석과 예측 기능을 제공합니다.
+무인매장 맞춤형 AI PIXY로써 리테일 기업을 비롯한 다양한 무인매장의 점주들에게 제공하는 AI 서비스입니다.
+
+다음과 같은 기능을 제공합니다.
+- 맞춤형 고객 응대: 랭체인과 ChatGPT를 활용하여 매장별 맞춤형 챗봇을 통해 고객 응대를 지원합니다.
+- CCTV 모니터링: YOLOv8를 이용해 사람을 감지하고, LSTM 기반 자세 추정을 통해 절도와 화재를 감지합니다.
+- 재고 관리: 머신러닝을 활용한 판매량 예측으로 효율적인 재고 관리를 제공합니다.
 
 ## 프로젝트 구조
 - `/frontend`: React 기반 사용자 인터페이스
@@ -22,10 +27,34 @@ PIXY는 KT Aivle 5기 과정에서 개발된 혁신적인 AI 기반 예측 및 �
 
 ## 기술 스택
 - 프론트엔드: React, Redux, Material-UI
-- 백엔드: Django, Django REST Framework, Celery
-- 데이터베이스: PostgreSQL, Redis
+- 백엔드: Django, Django REST Framework
+- 데이터베이스: Mysql, Redis
 - AI/ML: TensorFlow, PyTorch, Scikit-learn, RandomForest
-- 인프라: Docker, Kubernetes, AWS
+- 인프라: AWS EC2, S3, RDS
 
-## 설치 및 실행
-각 컴포넌트별 설치 및 실행 방법은 해당 디렉토리의 README.md 파일을 참조하세요.
+## 서비스 플로우
+<img src="https://github.com/user-attachments/assets/b6ffe3ef-7259-4149-8df0-bdf522ee846e" alt="image"></img>
+
+## 아키텍처 정의서
+<img src="https://github.com/user-attachments/assets/dd538b71-d17b-4697-ac54-a5bba98f40e7" alt="image"></img>
+
+## ERD
+<img src="https://github.com/user-attachments/assets/26d32591-86ae-4059-92ea-e1ebbf235e9c" alt="image"></img>
+
+## AI 적용기술
+### 이상행동 탐지 모델
+
+<img src="https://github.com/user-attachments/assets/50f7c260-73c8-4132-8ce5-2ad9e83e5a9b" alt="image"></img>
+
+### 화재탐지 모델
+
+<img src="https://github.com/user-attachments/assets/42ea6a6a-d8c4-44fa-9acd-f4d1d8676c08" alt="image"></img>
+
+### 판매예측 모델
+
+<img src="https://github.com/user-attachments/assets/de59e5aa-c4ab-42a1-b269-36b6f4a3650b" alt="image"></img>
+
+### RAG-LLM
+
+<img src="https://github.com/user-attachments/assets/c2bfa631-ed88-43bb-bb72-4c1689ca5c99" alt="image"></img>
+
